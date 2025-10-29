@@ -1,13 +1,9 @@
 import sys
 import re
 import datetime
-from PyQt5 import QtGui
 from emulator.register import *
 from emulator.instructions import *
 from emulator.assembler import to_decimal
-
-
-
 
 class execution_unit(object):
 
